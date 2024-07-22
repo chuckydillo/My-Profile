@@ -2,15 +2,17 @@
 
 header {
     margin: 0;
+    background-color: black;
 }
 
 .logo {
-    background: url(../images/kazuma1.png);
+    background: url(../images/Kazuma2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 700px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
