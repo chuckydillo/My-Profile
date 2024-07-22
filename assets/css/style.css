@@ -9,8 +9,9 @@ header {
     background: url(../images/Kazuma2.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:contain;
     min-height: 350px;
+    max-height: 700px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
