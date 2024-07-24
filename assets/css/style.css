@@ -78,3 +78,10 @@ header {
     text-align: center;
     padding: 0;
 }
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
