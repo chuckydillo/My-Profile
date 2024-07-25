@@ -36,8 +36,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
-    min-height: 350px;
-    max-height: 700px;
+    min-height:fit-content;
+    max-height: fit-content;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -66,6 +66,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -102,3 +106,4 @@ header {
     font-size: 14px;
     font-weight: 500;
 }
+
