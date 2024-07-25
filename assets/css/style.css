@@ -30,6 +30,25 @@ header {
     background-color: rgb(2, 79, 138);
 }
 
+/*--special paddings/margins/text--*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
 /*---heading---*/
 .logo {
     background: url(../images/Kazuma2.webp);
@@ -44,7 +63,7 @@ header {
 }
 
 .name {
-    font-family: "Bebas Neue" , sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     font-size: 46px;
     margin-top: 50;
@@ -52,7 +71,7 @@ header {
 }
 
 .title {
-    font-family: "Bebas Neue" , sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 250;
     font-size: 28px;
     margin-top: 20px;
@@ -105,4 +124,12 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
+}
+
+/*---footer---*/
+footer {
+    background-color: black;
+    color: white;
+    min-height: 120px;
+    margin: 0;
 }
